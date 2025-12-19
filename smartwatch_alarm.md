@@ -28,6 +28,7 @@ Venu4本体の方で設定をします。
 
 2. その他メモ
 	アラーム設定可能個数は1個ではなく複数登録できるらしい。公式マニュアルに個数の記載はないが、[あるサイト](https://gadgetken.com/?p=9218)によるとVenu4は8件までとのこと。
+
 ## 参考サイト
 記事内で紹介したURLを含みます。
 -  [Venu4マニュアル](https://static.garmin.com/pumac/venu4_OM_JA-JP.pdf)
