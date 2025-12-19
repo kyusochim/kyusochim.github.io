@@ -1,0 +1,79 @@
+/* 全体のリセットと基本設定 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+/* 背景画像の設定 */
+body {
+  background-image: url('top1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* オーバーレイで2分割 */
+.overlay {
+  display: flex;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* 少し暗くする */
+}
+
+/* 左側のパネル */
+.left-panel {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* リンクの配置 */
+.nav-links {
+  position: absolute;
+  top: 70%; /* 中央よりちょい下 */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+/* スマホなど画面が狭いとき（〜768px） */
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* 画像全体を表示 */
+    background-position: top center;
+  }
+
+  .overlay {
+    flex-direction: column; /* 上下に分割 */
+  }
+
+  .left-panel {
+    width: 100%;
+    height: 50%;
+  }
+
+  .nav-links {
+    top: 60%; /* ちょっと下にずらす */
+  }
+}
+
