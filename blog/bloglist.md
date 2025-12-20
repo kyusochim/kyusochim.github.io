@@ -1,2 +1,2 @@
 # Blog
-[スマートウォッチで目を覚ましたい](smartwatch_alarm.md)
+- [スマートウォッチで目を覚ましたい](smartwatch_alarm.md)
