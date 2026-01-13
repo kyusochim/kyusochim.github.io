@@ -58,3 +58,6 @@ screen scrape your highlights from Amazon's Kindle Reader and continuously keep 
 
 ≧Amazon Cloud > Sync now >ログイン画面
 
+## 参考サイト
+[ Obsidianガイド](https://note.com/roma_kumakura/n/n046d9c631e73)
+
