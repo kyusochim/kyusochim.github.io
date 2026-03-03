@@ -1,5 +1,5 @@
 # Blog
-- [布草履を部屋履きにしたい](布草履を部屋ばきにしたい.md)
+- [布草履を部屋履きにしたい]nunozori.md)
 - [Obsidianを利用したい](Obsidian.md)
 - [VRChatの移動を改変してみる](VRC_walk.md)
 - [Steamのゲームを外付けHDDに移す](steam_storage/steam_hdd.md)
